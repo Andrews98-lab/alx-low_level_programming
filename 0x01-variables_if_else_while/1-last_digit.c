@@ -1,29 +1,32 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
- * main - Entry point
- * Description: checks on the last digit of the assigned var
- * Return: Always 0 (success)
+ * main - Determine if the last digit of a random number is
+ * greater than or less than 5, or is zero..
+(*
+ * Return: 0 on success
  */
 int main(void)
 {
-        int n, m;
+        int n;
+        char last[] = "Last digit of";
 
         srand(time(0));
         n = rand() - RAND_MAX / 2;
-        m = n % 10;
-        if (m > 5)
+        printf("%s %d is %d and is ", last, n, n % 10);
+        if (n % 10 > 5)
         {
-                printf("Last digit of %d is %d and is greater than 5\n", n, m);
+                printf("greater than 5\n");
         }
-        else if (m < 6 && m != 0)
+        else if (n % 10 == 0)
         {
-                printf("Last digit of %d is %d and is less than 6 and not 0\n", n, m);
+                printf("0\n");
         }
         else
         {
-                printf("Last digit of %d is %d and is 0\n", n, m);
+                printf("less than 6 and not 0\n");
         }
         return (0);
+
 }
