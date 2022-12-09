@@ -11,27 +11,27 @@
 
 int main(void)
 {
-	int digit1 = 0, digit2;
+	int i = 0, c;
 
-	while (digit1 <= 9)
+	while (i <= 9)
 	{
-		digit2 = 0;
-		while (digit2 <= 9)
+		c = 0;
+		while (ci <= 9)
 		{
-			if (digit1 != digit2 && digit1 < digit2)
+			if (i != c && i < c)
 			{
-				putchar(digit1 + 48);
-				putchar(digit2 + 48);
+				putchar(i + 48);
+				putchar(c + 48);
 
-				if (digit1 + digit2 != 17)
+				if (i + c != 17)
 				{
 					putchar(',');
 					putchar(' ');
 				}
 			}
-			++digit2;
+			++c;
 		}
-		++digit1;
+		++i;
 	}
 	putchar('\n');
 
