@@ -3,7 +3,7 @@
   * main - print the first 98 fibonacci numbers.
   * Return: zero.
   */
-int main(voidm)
+int main(void)
 {
 	int count;
 	unsigned long i, j, k;
