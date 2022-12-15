@@ -5,6 +5,7 @@
  * Description: Prints diagonals
  *@size: size of the triangle
  * Return: void
+ * is for quantum
  */
 
 void print_triangle(int size)
