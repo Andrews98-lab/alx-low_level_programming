@@ -1,5 +1,5 @@
-
 #include "main.h"
+
 /**
  * _isupper - Entry point or start
  * @c: the integer value it receives
