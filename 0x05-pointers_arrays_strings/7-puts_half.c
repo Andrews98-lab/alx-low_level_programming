@@ -1,10 +1,11 @@
 #include "main.h"
+
 /**
  * puts_half - prints half of a string
  * @str: char to check
- *
  * Return: 0 is success
  */
+
 void puts_half(char *str)
 {
 	int string = 0, n;
@@ -21,3 +22,4 @@ void puts_half(char *str)
 	_putchar(str[string]);
 	_putchar('\n');
 }
+
