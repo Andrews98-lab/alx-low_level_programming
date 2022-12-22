@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
  * cap_string - capitalizes all words in a string
  * @s: string
  * Return: address of s
  */
+
 char *cap_string(char *s)
 {
 	int i = 0, j;
@@ -28,3 +30,4 @@ char *cap_string(char *s)
 	}
 	return (s);
 }
+
