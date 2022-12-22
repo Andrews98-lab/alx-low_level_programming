@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /*
    * write your line of code here...
    * Remember:
@@ -9,6 +10,7 @@
    */
   ;
   /* ...so that this prints 98\n */
+
 int main(void)
 {
   int n;
@@ -20,3 +22,4 @@ int main(void)
   printf("a[2] = %d\n", a[2]);
   return (0);
 }
+
