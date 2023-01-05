@@ -18,3 +18,4 @@ int factorial(int n)
 	next = factorial(n - 1);
 	return (n * next);
 }
+
