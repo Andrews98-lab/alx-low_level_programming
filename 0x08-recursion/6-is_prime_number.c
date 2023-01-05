@@ -5,6 +5,7 @@
 *
 *Return: true if the number is prime
 */
+
 int is_prime_number(int n)
 {
 	int start = n / 2;
@@ -30,3 +31,4 @@ int is_prime(int n, int start)
 		return (0);
 	return (is_prime(n, start - 1));
 }
+
