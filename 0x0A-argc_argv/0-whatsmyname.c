@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 
 /**
 * main - prints program name
@@ -12,3 +12,4 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 
 	return (0);
 }
+
