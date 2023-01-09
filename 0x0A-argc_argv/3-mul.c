@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
 * main - prints multiplication
 *of two numbers
@@ -25,3 +26,4 @@ int main(int argc, char *argv[])
 	printf("%d\n", mul);
 	return (0);
 }
+
