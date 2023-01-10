@@ -5,9 +5,9 @@
  * str_concat - concatenates two strings.
  * @s1: takes one string
  * @s2: takes another string
- *
  * Return: contents of s1 and s2 otherwise NULL
  */
+
 char *str_concat(char *s1, char *s2)
 {
 	unsigned int index, index2 = 0, len = 0;
