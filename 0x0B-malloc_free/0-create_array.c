@@ -9,6 +9,7 @@
  *
  * Return: pointer to array otherwise NULL
  */
+
 char *create_array(unsigned int size, char c)
 {
 	char *ptr;
