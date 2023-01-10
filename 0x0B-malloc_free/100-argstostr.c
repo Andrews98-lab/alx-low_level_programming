@@ -5,9 +5,9 @@
  * argstostr - concatenates all the arguments of your program.
  * @ac: arguments count
  * @av: argumet vector
- *
  * Return: pointer to new string otherwise NULL
  */
+
 char *argstostr(int ac, char **av)
 {
 	char *ptr_av;
