@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
 * array_range - creates an array of integers
 * @min: smallest number in the array
