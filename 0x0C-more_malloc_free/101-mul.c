@@ -1,4 +1,5 @@
 #include "main.h"
+
 int find_len(char *str);
 char *create_xarray(int size);
 char *iterate_zeroes(char *str);
@@ -30,7 +31,6 @@ int find_len(char *str)
  *              function exits with a status of 98.
  * Return: A pointer to the array.
  */
-
 char *create_xarray(int size)
 {
 	char *array;
@@ -48,6 +48,7 @@ char *create_xarray(int size)
 
 	return (array);
 }
+
 /**
  * iterate_zeroes - Iterates through a string of numbers containing
  *                  leading zeroes until it hits a non-zero number.
@@ -55,7 +56,6 @@ char *create_xarray(int size)
  *
  * Return: A pointer to the next non-zero element.
  */
-
 char *iterate_zeroes(char *str)
 {
 	while (*str && *str == '0')
@@ -72,7 +72,6 @@ char *iterate_zeroes(char *str)
  *              exits with a status of 98.
  * Return: The converted int.
  */
-
 int get_digit(char c)
 {
 	int digit = c - '0';
@@ -96,7 +95,6 @@ int get_digit(char c)
  * Description: If mult contains a non-digit, the function
  *              exits with a status value of 98.
  */
-
 void get_prod(char *prod, char *mult, int digit, int zeroes)
 {
 	int mult_len, num, tens = 0;
