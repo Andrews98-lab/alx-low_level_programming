@@ -1,10 +1,12 @@
 #include "main.h"
-/**
- * _calloc - allcocate memory using malloc and initialize it to zero
- * @nmemb: number of element
- * Return: pointer tothe address of memory block
- */
 
+/**
+* _calloc - allocate memory using malloc and initialize it to zero
+*@nmemb: number of elements
+*@size: size of the memory block to be allocated
+*
+*Return: poiner to the address of the memory block
+*/
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *block;
@@ -22,4 +24,3 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	else
 		return (NULL);
 }
-
