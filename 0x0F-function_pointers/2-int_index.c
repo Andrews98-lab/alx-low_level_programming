@@ -1,5 +1,4 @@
 #include "function_pointers.h"
-
 /**
   * int_index - ...
   * @array: ...
@@ -8,6 +7,7 @@
   *
   * Return: ...
   */
+
 int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i = 0;
@@ -28,3 +28,4 @@ int int_index(int *array, int size, int (*cmp)(int))
 
 	return (-1);
 }
+
