@@ -1,15 +1,17 @@
 #include "main.h"
 
 /**
- * _puts - prints a string
- * @str: string to print
- * Description: prints a string
- * On success: return the number of characters printed
- **/
-
+ *_puts - swaps the value of two integers
+ * @str: The pointer value one
+ */
 void _puts(char *str)
 {
-	while (*str)
-		_putchar(*str++);
+	int c = 0;
+
+	while (str[c] != '\0')
+	{
+		_putchar(str[c]);
+		c++;
+	}
 	_putchar('\n');
 }

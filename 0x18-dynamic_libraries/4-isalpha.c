@@ -1,14 +1,19 @@
 #include "main.h"
-
+#include <ctype.h>
 /**
- * _isalpha - controls if a character is alphabetical
- * @c: character to be verified
- * Return: return 0 or 1
- **/
-
+ *_isalpha - return one if c is lowercase else return zero
+ *
+ *Return: 0
+ *@c: number for evaluate
+ */
 int _isalpha(int c)
 {
-	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
+	if (isalpha(c) != 0)
+	{
 		return (1);
-	return (0);
+	}
+	else
+	{
+		return (0);
+	}
 }

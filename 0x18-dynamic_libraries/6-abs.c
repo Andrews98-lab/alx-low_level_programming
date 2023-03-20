@@ -1,17 +1,16 @@
 #include "main.h"
-
 /**
- * _abs - prints the absolute value of a number
- * @i: number targeted
- * Return: returns 0
- **/
-
-int _abs(int i)
+ *_abs - return deppend of sign of n
+ *
+ *Return: 0
+ *@c: number for evaluate
+ */
+int _abs(int c)
 {
-	if (i > 0)
-		return (i);
-	else if (i < 0)
-		return (-i);
+	if (c < 0)
+	{
+		return (-c);
+	}
 	else
-		return (0);
+		return (c);
 }
